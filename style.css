@@ -1,0 +1,44 @@
+
+@import url("Montana.ttf");
+
+@font-face {
+  font-family: "Montana";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montana"), url("Montana.ttf") format("woff");
+}
+
+body {
+    background: #000;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Montana';
+
+}
+
+a {
+    
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    font-family: 'Montana';
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Montana', sans-serif;
+ 
+}
+
+canvas {
+    background: #000;
+}
